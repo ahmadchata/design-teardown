@@ -17,10 +17,11 @@ body {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-around;
     max-width: 100%;
     list-style-type: none;
-    padding: 1.2rem;
 }
 
 .menu a {
@@ -33,6 +34,7 @@ nav ul {
 .navigation input {
     background-image: url(images/glass.svg);
     background-repeat: no-repeat;
+    background-position: center left 20px;
     height: 3rem;
     width: 18rem;
     border-radius: 1rem;
@@ -53,9 +55,20 @@ nav ul {
 
 .menu .cat {
     position: absolute;
-    width: 20px;
+    width: 50px;
+    top: 0px;
 }
 
-.navigation ul li:last-child {
-    border: 1px solid black;
+ul li:nth-child(7) {
+    display: flex;
+    border: green 1px solid;
+    padding: 10px 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #d33a2c;
+}
+
+ul li:nth-child(7):hover {
+    box-shadow: 0 0 3px 1px #282a2d;
 }
