@@ -11,14 +11,14 @@ body {
 
 .navigation {
     max-width: 100%;
-    background: red;
+    background: rgb(128, 127, 127);
     height: 12vh;
 }
 
 nav ul {
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0.5em;
     justify-content: space-around;
     max-width: 100%;
     list-style-type: none;
@@ -44,29 +44,17 @@ nav ul {
     padding-left: 3rem;
 }
 
-.navigation form {
-    float: right;
-}
-
 .menu img {
     width: 50px;
     height: 63px;
 }
 
-.menu .cat {
-    position: absolute;
-    width: 50px;
-    top: 0px;
-}
-
 ul li:nth-child(7) {
-    display: flex;
-    border: green 1px solid;
     padding: 10px 35px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #d33a2c;
+    background-color: gray;
 }
 
 ul li:nth-child(7):hover {
@@ -82,11 +70,23 @@ ul li:nth-child(7):hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 88vh;
+    align-items: left;
+    padding: 0 2rem;
+    height: 75vh;
     width: 33%;
-    background-color: cadetblue;
+    background-color: rgb(105, 104, 104);
 
+}
+
+.culumn2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2rem;
+    align-items: left;
+    height: 75vh;
+    width: 33.9%;
+    background-color: rgb(119, 118, 118);
 }
 
 .authors {
@@ -98,7 +98,8 @@ ul li:nth-child(7):hover {
 
 .authors img {
     width: 5em;
-    border: white 3px solid;
+    border: white 4px solid;
+    border-radius: 0.5em;
     transform: rotate(-20deg);
 }
 
@@ -108,17 +109,23 @@ ul li:nth-child(7):hover {
 }
 
 .title {
-    background-color: yellowgreen;
     display: flex;
     flex-direction: column;
-    padding: 3rem 6rem;
-    height: 30vh;
+    padding: 1rem 2rem;
+    height: 25vh;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
 
 .title p {
-    background-color: thistle;
+    font-size: 1rem;
+}
 
+.categories {
+    display: flex;
+    justify-content: space-between;
+    width: 15em;
+    margin-top: 1rem;
+    padding-left: 1.7rem;
 }
