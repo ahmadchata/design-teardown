@@ -20,22 +20,42 @@ nav ul {
     justify-content: space-between;
     max-width: 100%;
     list-style-type: none;
-    padding: 25px;
+    padding: 1.2rem;
 }
 
 .menu a {
     text-decoration: none;
     color: white;
-    font-size: 36px;
+    font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
 
 .navigation input {
+    background-image: url(images/glass.svg);
+    background-repeat: no-repeat;
     height: 3rem;
-    width: 20rem;
+    width: 18rem;
     border-radius: 1rem;
     border: none;
     font-size: 1.5rem;
     font-weight: 600;
     padding-left: 3rem;
+}
+
+.navigation form {
+    float: right;
+}
+
+.menu img {
+    width: 50px;
+    height: 63px;
+}
+
+.menu .cat {
+    position: absolute;
+    width: 20px;
+}
+
+.navigation ul li:last-child {
+    border: 1px solid black;
 }
