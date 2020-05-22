@@ -72,3 +72,53 @@ ul li:nth-child(7) {
 ul li:nth-child(7):hover {
     box-shadow: 0 0 3px 1px #282a2d;
 }
+
+.top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.culumn1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    width: 33%;
+    background-color: cadetblue;
+
+}
+
+.authors {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25em;
+}
+
+.authors img {
+    width: 5em;
+    border: white 3px solid;
+    transform: rotate(-20deg);
+}
+
+.authors p {
+    position: relative;
+    left: 2rem;
+}
+
+.title {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 6rem;
+    height: 30vh;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+.title p {
+    background-color: thistle;
+
+}
