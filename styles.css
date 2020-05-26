@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Baloo 2', cursive;
+    background: rgb(196, 194, 194);
 }
 
 .navigation {
@@ -131,7 +132,7 @@ ul li:nth-child(7):hover {
 }
 
 article {
-    padding-bottom: 3.5em;
+    padding-bottom: 15vh;
 }
 
 .article {
@@ -141,10 +142,32 @@ article {
     grid-template-columns: auto auto auto auto;
 }
 
-.article-dsc {
+.article2 {
+    max-width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     background: rgb(196, 194, 194);
-    padding: 20px 20px;
+}
+
+.article3 {
+    max-width: 100%;
+    padding-top: 4rem;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background: rgb(196, 194, 194);
+}
+
+.article-dsc,
+.article-free {
+    background: rgb(196, 194, 194);
+    padding: 2rem 4rem;
     transition: all ease 0.5s;
+}
+
+.article-free p {
+    text-align: center;
 }
 
 .article-dsc:hover {
@@ -154,7 +177,7 @@ article {
 
 .article-dsc span,
 .article-dsc p,
-.article-dsc p > a {
+.article-dsc p a {
     color: gray;
 }
 
@@ -162,7 +185,9 @@ article {
     padding: 20px 0;
 }
 
-.article h2 a {
+.article h2 a,
+.article2 h2 a,
+.article3 h2 a {
     color: black;
 }
 
@@ -175,4 +200,39 @@ article {
 
 .arrow2:hover {
     background: rgb(58, 57, 57);
+}
+
+.free-trial {
+    width: 25rem;
+    height: 17rem;
+    border: 1px solid black;
+    background: rgb(154,154,163);
+    background: radial-gradient(circle, rgba(154,154,163,1) 0%, rgba(150,150,152,1) 47%, rgba(93,97,97,1) 100%);
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.article-member {
+    width: 56rem;
+    height: 40rem;
+    border: 1px solid black;
+    background: rgb(154,154,163);
+    background: radial-gradient(circle, rgba(154,154,163,1) 0%, rgba(150,150,152,1) 47%, rgba(93,97,97,1) 100%);
+    border-radius: 10px;
+    margin-left: 3rem;
+}
+
+.article-member3 {
+    width: 56rem;
+    height: 40rem;
+    border: 1px solid black;
+    background: rgb(154,154,163);
+    background: radial-gradient(circle, rgba(154,154,163,1) 0%, rgba(150,150,152,1) 47%, rgba(93,97,97,1) 100%);
+    border-radius: 10px;
+    margin-right: 3rem;
+    margin-bottom: 10rem;
+}
+
+.see-all {
+
 }
