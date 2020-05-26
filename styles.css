@@ -50,7 +50,7 @@ nav ul {
     height: 63px;
 }
 
-ul li:nth-child(7) {
+nav ul li:nth-child(7) {
     padding: 10px 35px;
     cursor: pointer;
     border: none;
@@ -58,7 +58,7 @@ ul li:nth-child(7) {
     background-color: rgb(87, 86, 86);
 }
 
-ul li:nth-child(7):hover {
+nav ul li:nth-child(7):hover {
     box-shadow: 0 0 3px 1px #282a2d;
 }
 
@@ -135,7 +135,8 @@ article {
     padding-bottom: 15vh;
 }
 
-.article {
+.article,
+.guides {
     max-width: 100%;
     height: 75vh;
     display: grid;
@@ -170,10 +171,11 @@ article {
     text-align: center;
 }
 
-.article-dsc:hover {
+.article-dsc:hover,
+.css-grid:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 30px rgba(0,0,0,.25);
-    height: 75vh;
+    min-height: 55vh;
 }
 
 .article-dsc span,
@@ -302,14 +304,13 @@ article {
 .person-column {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    height: 80vh;
+    height: 75vh;
     margin: 0rem 3rem;
     grid-gap: 8vh;
 }
 .person2 {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    /* margin: 3rem 3rem; */
 }
 
 .person2 img {
@@ -317,7 +318,6 @@ article {
     border: black 4px solid;
     border-radius: 0.5em;
     transform: rotate(-10deg);
-
 }
 
 .person-image2 {
@@ -331,4 +331,45 @@ article {
 
 .person-title2 p {
     font-size: 1.5rem;
+}
+
+.guides {
+    padding: 3rem 4rem;
+    transition: all ease-out 0.1s;
+}
+
+.css-grid span,
+.css-grid h2 {
+    padding: 1.5rem;
+
+}
+
+.guides ul {
+    padding: 1.5rem 3rem;
+}
+
+.guides h2 {
+    font-size: 1.8rem;
+}
+
+.guides ul li {
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+}
+
+.guides ul li a {
+    color: rgb(80, 78, 78);
+}
+
+.newsletter {
+    max-width: 95%;
+    margin: auto;
+    height: 100vh;
+    background: rgb(154,154,163);
+    background: radial-gradient(circle, rgba(154,154,163,1) 0%, rgba(150,150,152,1) 47%, rgba(93,97,97,1) 100%);
+    border-radius: 10px;
+}
+
+footer ul {
+    display: flex;
 }
