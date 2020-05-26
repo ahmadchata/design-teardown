@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Patua One', cursive;
+    font-family: 'Baloo 2', cursive;
 }
 
 .navigation {
@@ -119,6 +119,7 @@ ul li:nth-child(7):hover {
 
 .title p {
     font-size: 1rem;
+    padding: 15px 0;
 }
 
 .categories {
@@ -127,6 +128,10 @@ ul li:nth-child(7):hover {
     width: 15em;
     margin-top: 1rem;
     padding-left: 1.7rem;
+}
+
+article {
+    padding-bottom: 3.5em;
 }
 
 .article {
@@ -138,4 +143,36 @@ ul li:nth-child(7):hover {
 
 .article-dsc {
     background: rgb(196, 194, 194);
+    padding: 20px 20px;
+    transition: all ease 0.5s;
+}
+
+.article-dsc:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px rgba(0,0,0,.25);
+}
+
+.article-dsc span,
+.article-dsc p,
+.article-dsc p > a {
+    color: gray;
+}
+
+.article-dsc p {
+    padding: 20px 0;
+}
+
+.article h2 a {
+    color: black;
+}
+
+.arrow,
+.arrow2 {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 20px 30px;
+}
+
+.arrow2:hover {
+    background: rgb(58, 57, 57);
 }
