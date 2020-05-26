@@ -46,8 +46,9 @@ nav ul {
 }
 
 .menu img {
-    width: 50px;
-    height: 63px;
+    padding-top: 1.7rem;
+    width: 16rem;
+    height: 5rem;
 }
 
 nav ul li:nth-child(7) {
