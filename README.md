@@ -3,7 +3,7 @@ Microverse 5th Project (Collaborative)
 
 > This page is a grayscale version of the SmashingMagazine web page.
 
-![screenshot](./images/screenshot)
+![screenshot](./images/screenshot.png)
 
 The page tries to replicate as much as possible the actual SmashingMagazine Web page in grayscale.
 
