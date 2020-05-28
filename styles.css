@@ -110,7 +110,8 @@ nav ul li:nth-child(7):hover {
   height: 90vh;
 }
 
-.culumn1 {
+.culumn1,
+.culumn2 {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -119,10 +120,6 @@ nav ul li:nth-child(7):hover {
 }
 
 .culumn2 {
-  display: flex;
-  flex-direction: column;
-  padding: 10rem 2rem;
-  align-items: left;
   background-color: rgb(119, 118, 118);
 }
 
@@ -178,30 +175,25 @@ article {
 }
 
 .article,
-.guides {
+.guides,
+.article2,
+.article3 {
   max-width: 100%;
   height: 70vh;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.article2 {
-  max-width: 100%;
+.article2,
+.article3 {
   margin-top: 8rem;
-  height: 70vh;
-  display: grid;
   grid-template-columns: 2fr 1fr;
   background: rgb(196, 194, 194);
 }
 
 .article3 {
-  max-width: 100%;
-  margin-top: 8rem;
   padding-top: 4rem;
-  height: 70vh;
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background: rgb(196, 194, 194);
 }
 
 .article-dsc {
@@ -408,7 +400,8 @@ footer ul {
 }
 
 footer {
-  max-width: 100%;
+  max-width: 1300px;
+  margin: auto;
   height: 70vh;
   padding-top: 4rem;
   background-color: rgb(105, 104, 104);
