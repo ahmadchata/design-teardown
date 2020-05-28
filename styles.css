@@ -187,6 +187,7 @@ article {
 
 .article2 {
   max-width: 100%;
+  margin-top: 8rem;
   height: 70vh;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -195,6 +196,7 @@ article {
 
 .article3 {
   max-width: 100%;
+  margin-top: 8rem;
   padding-top: 4rem;
   height: 70vh;
   display: grid;
@@ -212,7 +214,7 @@ article {
 .css-grid:hover {
   transform: scale(1.1);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
-  min-height: 55vh;
+  min-height: 40vh;
 }
 
 .article-dsc span,
@@ -259,7 +261,7 @@ article {
   background: rgb(154, 154, 163);
   background: radial-gradient(circle, rgba(154, 154, 163, 1) 0%, rgba(150, 150, 152, 1) 47%, rgba(93, 97, 97, 1) 100%);
   border-radius: 10px;
-  margin: 3rem auto;
+  margin: 8rem auto;
 }
 
 .see-all {
@@ -392,6 +394,7 @@ footer ul {
 }
 
 .guides2 {
+  margin-top: 5rem;
   display: grid;
   grid-template-columns: 1fr 2.5fr;
 }
