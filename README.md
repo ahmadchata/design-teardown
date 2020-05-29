@@ -15,7 +15,7 @@ The page tries to replicate as much as possible the actual SmashingMagazine Web 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ahmadchata/design-teardown/f5649bbd5522453324c96bc7f90a182626e7d42d/index.html)
+[Live Demo Link](https://raw.githack.com/ahmadchata/design-teardown/master/index.html)
 
 ## Authors
 
