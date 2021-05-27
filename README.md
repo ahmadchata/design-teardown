@@ -1,5 +1,4 @@
 # design-teardown
-Microverse 5th Project (Collaborative)
 
 > This page is a grayscale version of the SmashingMagazine web page.
 
